@@ -1,0 +1,5 @@
+---
+# tasks file for apache2
+
+- include: appinstall.yaml
+- include: deployfile.yaml

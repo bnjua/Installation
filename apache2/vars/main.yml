@@ -1,0 +1,6 @@
+---
+# vars file for apache2
+
+packagename: apache2
+
+#srcpath: /etc/ansible/roles/apache2/files/index.html

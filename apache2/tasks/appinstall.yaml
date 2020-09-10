@@ -1,0 +1,8 @@
+---
+ - name: Install Software
+   yum:
+     name: "{{packagename}}"
+     state: present
+   
+   notify:
+     - restart package

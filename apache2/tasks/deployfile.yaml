@@ -1,0 +1,5 @@
+---
+ - name: Copying Into Webserver
+   copy:
+     src: index.html
+     dest: /var/www/html
